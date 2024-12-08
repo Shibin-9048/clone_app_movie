@@ -1,0 +1,68 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #0a0a0a;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+
+/* Hero Section Styling */
+.hero {
+  background-image: url('https://via.placeholder.com/1920x600');
+  background-size: cover;
+  background-position: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero button {
+  font-size: 1.1rem;
+  padding: 0.75rem 2rem;
+}
+
+/* MovieRow Styling */
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #1c1c1c;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ff6f61;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #181818;
+  font-size: 0.9rem;
+}
